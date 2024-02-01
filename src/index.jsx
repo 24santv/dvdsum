@@ -6,6 +6,7 @@ import About from './About'
 import Rooms from './Rooms'
 import Packages from './Packages'
 import Spas from './Spas'
+import Restaurant from './Restaurant'
 import {
   createBrowserRouter,
   RouterProvider,
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
   {
     path: "/Spas",
     element: <Spas />,
+  },
+  {
+    path: "/Restaurant",
+    element: <Restaurant />,
   },
 ]);
 ReactDOM.createRoot(document.getElementById("root")).render(

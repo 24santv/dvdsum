@@ -39,7 +39,7 @@ function Services(props) {
         {name: "Rooms", color: "white", variant:"text", href:"/Rooms"},
         {name: "Packages", color: "white", variant:"text", href:"/Packages"},
         {name: "Spas", color: "white", variant:"text", href:"/Spas"},
-        {name: "Restaurants", color: "white", variant:"text", href:"/About"},
+        {name: "Restaurants", color: "white", variant:"text", href:"/Restaurant"},
       ]} fontSize="Large" />
       <ResponsiveStack2></ResponsiveStack2>
             </div>

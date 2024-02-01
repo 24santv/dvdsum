@@ -7,16 +7,16 @@ import { styled } from '@mui/material/styles';
 import Typography from '@mui/material/Typography';
 
 const Item = styled(Paper)(({ theme }) => ({
-  backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
+  backgroundColor: 'transparent',
   ...theme.typography.body2,
   padding: theme.spacing(1),
   textAlign: 'center',
-  color: theme.palette.text.secondary,
+  color: "white",
   maxWidth: 700,
 }));
 
-const message = `Top-notch service, thrilling events, and serene spa moments. Can't wait to come back!`;
-const message1 = ' Fantastic stay! Nailed the balance of excitement and relaxation';
+const message = `Exceptional experience! The restaurant's diverse menu, exceeded my expectations.`;
+const message1 = 'Each dish was a culinary masterpiece! A definite highlight of my stay.';
 
 export default function ZeroWidthStack() {
   return (

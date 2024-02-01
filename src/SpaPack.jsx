@@ -1,7 +1,7 @@
 import * as React from 'react';
-import semuq1 from './assets/custom.png';
-import volc from './assets/out.png';
-import acat from './assets/serene.png';
+import semuq1 from './assets/beds.jpg';
+import volc from './assets/food.jpg';
+import acat from './assets/tub.jpg';
 import Stack from '@mui/material/Stack';
 import { styled } from '@mui/material/styles';
 import Paper from '@mui/material/Paper';

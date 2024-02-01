@@ -95,3 +95,21 @@
 <div className="Stack">
               <StackR></StackR>
             </div>
+
+            <HoverRating></HoverRating>  
+
+
+            .Parag{
+              align: center;
+              padding: 10px;
+              width: 50%;
+              height: 50%;
+            }
+
+            <div className="Parag"><TotalAvatars></TotalAvatars></div>
+          <img src={old} />
+
+
+
+
+          import old from './assets/oldh.jpeg'

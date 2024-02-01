@@ -1,7 +1,8 @@
 import './App.css'
-import DirectionStack from './PackStack';
-import back from './assets/TT.png'
+import SpaPack from './SpaPack';
+import back from './assets/TT.jpg'
 import BarButton from './BarButton';
+import IconContainer from './Stars';
 
 function Spas(props) {
   return (
@@ -25,10 +26,15 @@ function Spas(props) {
              providing essential treatments for a refreshing and invigorating experience. Whether you're seeking romance, 
             rejuvenation, or simply a touch of relaxation, our spa offerings cater to every desire, ensuring a serene and rejuvenating escape amidst the jungle's beauty.</p>
             </div>
-            <DirectionStack></DirectionStack>
-            <div className="Rooms"><p>blah blajdcufeeifhviuehviuvfjnvfkvkfbvhfbvijfvj
-                ehevbejivbhbvjkkkkkkkkkkkkkkkk
-            </p>
+            <SpaPack></SpaPack>
+            <BarButton buttons = {[
+        {name: "Special", color: "white", variant:"text", },
+        {name: "Rejuvenation", color: "white", variant:"text", },
+        {name: "Standard", color: "white", variant:"text", },
+      ]} fontSize="Large" />
+
+            <div className="SevParag">
+            <IconContainer></IconContainer>
             </div>
             <div className="Border5">
         <div className="Services">

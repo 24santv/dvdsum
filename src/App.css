@@ -93,6 +93,7 @@
   color: #ffffff;
   font-size: 22px;
   text-align: center;
+  align-content: center;
   padding: 10px;
 }
 .Text1{
@@ -177,4 +178,14 @@ p1{
   border-color: #aed779;
   writing-mode: horizontal-tb;
   text-align: center;
+}
+.Border6{
+  margin: 2px;
+  border-block: solid;
+  border-color: #cccab1;
+  writing-mode: horizontal-tb;
+  text-align: center;
+}
+.Parag{
+  justify-content: center;
 }
