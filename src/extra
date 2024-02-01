@@ -1,0 +1,97 @@
+          <img
+          
+            srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
+            src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
+            alt={item.title}
+            loading="lazy"
+          />
+        </ImageListItem>
+
+
+
+        
+        <Grid ite sx={{
+            width :"85%",
+            height: "90%",
+            pt: 2,
+            margin: "0 auto"
+          }} cols={3} rowHeight={500} gap={8}>
+            {itemData.map((item) => (
+              <ImageListItem key={item.img}>
+                <Card sx={{maxWidth: "100%"}}>
+                <CardMedia
+              square
+              sx={{height:350, backgroundColor: "transparent"}}
+              image={item.img}
+              title={item.name}
+                />
+              <CardContent sx={{backGroundColor: "transparent"}}>
+                <Typography gutterBottom variant="h5" component="div">
+                  {item.name}
+                </Typography>
+              </CardContent>
+                </Card>
+                </ImageListItem>
+            ))}
+                  </Grid>
+                   (</ImageListItem>
+                    
+                      <img
+                
+                srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
+                src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
+                alt={item.title}
+                loading="lazy"
+              />
+      
+        )
+      }
+      
+      const itemData = [
+        {
+          img: Slide1,
+          title: 'Breakfast',
+          
+        },
+        {
+          img: Slide2,
+          title: 'Burger',
+        },
+        {
+          img: Slide3,
+          title: 'Camera',
+        },
+        {
+          img: Slide4,
+          title: 'Coffee',
+        },
+        {
+          img: Slide5,
+          title: 'Hats',
+        },
+        {
+          img: Slide6,
+          title: 'Honey',
+        },
+      ];
+
+
+      <div className="banana">
+      <Grid container spacing={1}>
+      <Grid item xs={2}>
+      <TextRating></TextRating>
+    </Grid>
+    <Grid item xs={2}>
+    <IconContainer></IconContainer>
+    </Grid>
+    <Grid item xs={6}>
+    <ZeroWidthStack></ZeroWidthStack>
+    </Grid>
+  </Grid>
+    </div>
+
+
+
+<div className="Stack">
+              <StackR></StackR>
+            </div>

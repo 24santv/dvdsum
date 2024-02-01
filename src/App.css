@@ -7,6 +7,12 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'second';
+  src: url('src/font/second.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 .Titles{
   font-family: "greek";
   font-size: 5.5rem;
@@ -27,12 +33,12 @@
   margin: 0;
 }
 .Button button{
+  text-align: center;
   border: none;
   background: transparent;
   font-family: "greek";
   font-size: 20px;
   color: #ffffff;
-  text-align: center;
 }
 .Paragraphs{
   font-family: "greek";
@@ -56,4 +62,119 @@
 .text-container {
   display: flex;
   gap: 10px;
+}
+
+.foto{
+  width: 40%;
+}
+
+.SignLog Button button{
+  border: dotted;
+  background: transparent;
+  font-family: "greek";
+  font-size: 20px;
+  color: #739c75;
+  text-align: center;
+}
+.Services{
+  font-family: "greek";
+  font-size: 30px;
+  color: #ffffff;
+}
+.Border1{
+  margin: 2px;
+  border-block: solid;
+  border-color: #88d58c;
+  writing-mode: horizontal-tb;
+  text-align: center;
+}
+.SevParag{
+  font-family: "second";
+  color: #ffffff;
+  font-size: 22px;
+  text-align: center;
+  padding: 10px;
+}
+.Text1{
+  background-color: #558757;
+  text-align: left;
+  font-family: "greek";
+  font-size: 19px;
+  color: #ffffff;
+}
+.Beg2{
+  align-items: center;
+  font-family: "greek";
+  color: #ffffff;
+  text-align: center;
+}
+.img-1{
+  width:30%
+}
+.Card1{
+  width:70%;
+  height: 30%;
+}
+p1{
+  font-size: 1.5rem;
+}
+.Rooms button{
+  text-align: center;
+  border: none;
+  background:transparent;
+  font-family: "greek";
+  font-size: 20px;
+  color: #ffffff;
+}
+.SevParag button{
+  text-align: center;
+  border:none;
+  background: #558757;
+  font-family: "greek";
+  font-size: 20px;
+  color: #ffffff;
+}
+.Border2{
+  margin: 2px;
+  border-block: solid;
+  border-color: #9b9e6e;
+  writing-mode: horizontal-tb;
+  text-align: center;
+}
+.hi{
+  width: 20%;
+  height: 20%;
+}
+.Rooms{
+  font-family: "second";
+  color: #ffffff;
+  font-size: 25px;
+  text-align: center;
+  padding: 10px;
+}
+.Border3{
+  margin: 2px;
+  border-block: solid;
+  border-color: #8b964b;
+  writing-mode: horizontal-tb;
+  text-align: center;
+}
+.Border4{
+  margin: 2px;
+  border-block: solid;
+  border-color: #6d8b45;
+  writing-mode: horizontal-tb;
+  text-align: center;
+}
+.Banana{
+  height: 100%;
+  width: 100%;
+  align-content: center;
+}
+.Border5{
+  margin: 2px;
+  border-block: solid;
+  border-color: #aed779;
+  writing-mode: horizontal-tb;
+  text-align: center;
 }
